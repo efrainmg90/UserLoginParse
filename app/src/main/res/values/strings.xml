@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">UserLoginParse</string>
+    <string name="parse_server_url1">http://200.23.53.195:1337/parse</string>
+    <string name="parse_server_url">http://192.168.10.106:1337/parse</string>
+    <string name="parse_app_id">titulacion</string>
+</resources>

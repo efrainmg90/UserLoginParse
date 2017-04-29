@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.efrainmg90.userloginparse.RegisterActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Nuevo Usuario" />
+
+    <EditText
+        android:id="@+id/edt_username_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Usuario..." />
+
+    <EditText
+        android:id="@+id/edt_password_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edt_username_reg"
+        android:layout_below="@+id/edt_username_reg"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="Contraseña..."
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edt_email_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_password_reg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="correo electronico..."
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/btn_save_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_email_reg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:text="Guardar" />
+</RelativeLayout>

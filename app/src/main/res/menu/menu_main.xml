@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Nuevo" android:id="@+id/menu_new"></item>
+    <item android:title="Perfil" android:id="@+id/mnu_profile"></item>
+    <item android:title="Salir" android:id="@+id/mnu_logout"></item>
+</menu>
